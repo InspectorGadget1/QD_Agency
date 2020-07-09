@@ -59,7 +59,7 @@
 }
 
 body{
-    background: black url(img/background.png) no-repeat fixed center;
+    background: black url(./img/background.png) no-repeat fixed center;
     background-size: 60% 100%;
 }
 
