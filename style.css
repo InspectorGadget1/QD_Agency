@@ -1,0 +1,138 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.social a {
+    color: #D8E2DC;
+    width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #D8E2DC;
+  float: left;
+  transition: all 0.5s ease;
+}
+.youtube a:hover {
+    color: #c4302b;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease; 
+}
+.instagram a:hover {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;}
+.facebook a:hover {
+    color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+.telegram a:hover {
+    color: #249bd7;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.navbar-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+}
+
+body{
+    background: black url(/img/background.png) no-repeat fixed center;
+    background-size: 60% 100%;
+}
+
+.menu-block__button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-block__button:hover{
+    background: linear-gradient(to right, #a053ff,#ff398f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 15px linear-gradient(to right, #a053ff,#ff398f);
+    border: 1px solid rgb(90, 90, 90);
+    transition: all 0.5s ease;
+}
+.button1{
+    border-right: none;
+    border-radius: 20px 0 0 20px ;
+}
+.button2{
+    margin-left: -5px;
+    margin-right: -5px;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+}
+.button3{
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+}
+.menu-block__line{ 
+    position: absolute;
+    border-left: 1px solid white;
+    height: 20px;
+    margin-top: 7px;
+}
+.line1{
+    margin-left: -5px;
+}
+.logo-block{
+    display: flex;
+}
+.logo-block__button{
+    display: block;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px;
+}
+.logo-block__logo{
+    display: block;
+    height: 35px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.socialmedia-block{
+display: flex;
+}
+.button-left{
+    border-radius: 20px 0 0 20px;
+}
+.button-right{
+    border-radius: 0 20px 20px 0;
+}
+.text{
+    color: #c9c9c9;
+    text-align: center;
+    margin-top: 400px;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
