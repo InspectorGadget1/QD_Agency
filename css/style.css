@@ -245,6 +245,7 @@ body {
   min-height: 100vh;
   color: #ffffff;
   font-family: 'Roboto Light', sans-serif;
+  padding-top: 80vh;
 }
 
 .title {
@@ -261,7 +262,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-size: 24px;
-  padding-top: 470px;
 }
 
 .subtitle {
