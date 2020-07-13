@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('/fonts/');
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('/fonts/?#iefix') format('embedded-opentype'),
+        url('/fonts/Roboto-Light.woff') format('woff'),
+        url('/fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('/fonts/');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('/fonts/?#iefix') format('embedded-opentype'),
+        url('/fonts/Roboto-Bold.woff') format('woff'),
+        url('/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@mixin bold {
+    font-family: 'Roboto Bold', sans-serif;
+}
+@mixin light {
+    font-family: 'Roboto Light', sans-serif;
+}
+@mixin gradient {
+    &:hover {
+        background: linear-gradient(to right, #a053ff, #ff398f);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow: 0 0 15px linear-gradient(to right, #a053ff, #ff398f);
+        transition: all 0.5s ease;
+    }
+}

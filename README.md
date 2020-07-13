@@ -1,1 +1,0 @@
-# QD_Agency

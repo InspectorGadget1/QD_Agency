@@ -1,0 +1,49 @@
+.socialmedia-block{
+    display: flex;
+    &__link a {
+        text-decoration: none;
+        color: #d8e2dc;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin: 0 10px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #d8e2dc;
+        float: left;
+        transition: all 0.5s ease;
+    }
+}
+.youtube a{
+    &:hover {
+        color: #c4302b;
+        text-shadow: 0 0 15px #3b5998;
+        transition: all 0.5s ease;
+        border: 1px solid rgb(90, 90, 90);
+    }
+}
+.instagram a{
+    &:hover {
+        color: #bc2a8d;
+        text-shadow: 0 0 15px #bc2a8d;
+        transition: all 0.5s ease;
+        border: 1px solid rgb(90, 90, 90);
+    }
+}
+.facebook a{
+    &:hover {
+        color: #3b5998;
+        text-shadow: 0 0 15px #3b5998;
+        transition: all 0.5s ease;
+        border: 1px solid rgb(90, 90, 90);
+    }
+}
+.telegram a{
+    &:hover {
+        color: #249bd7;
+        text-shadow: 0 0 15px #3b5998;
+        transition: all 0.5s ease;
+        border: 1px solid rgb(90, 90, 90);
+    }
+}

@@ -1,0 +1,93 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    @include bold;
+}
+.navbar-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+    background: transparent;
+}
+.nav-buttons {
+    &__button {
+        color: #ffffff;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        padding: 11px;
+        font-size: 10px;
+        @include gradient;
+    }
+
+    &__line {
+        position: absolute;
+        border-left: 1px solid #ffffff;
+        height: 16px;
+        margin-top: 10px
+    }
+}
+.button1 {
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    &:hover {
+        border: 1px solid rgb(90, 90, 90);
+        border-right: none;
+        transition: all 0.5s ease;
+    }
+}
+.line1 {
+    margin-left: -5px;
+}
+.button2 {
+    margin-left: -5px;
+    margin-right: -5px;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    &:hover {
+        border-bottom: 1px solid rgb(90, 90, 90);
+        border-top: 1px solid rgb(90, 90, 90);
+        transition: all 0.5s ease;
+    }
+}
+.button3 {
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    &:hover {
+        border: 1px solid rgb(90, 90, 90);
+        border-left: none;
+        transition: all 0.5s ease;
+    }
+}
+.logo-block {
+    display: flex;
+    &__button {
+        display: block;
+        color: #ffffff;
+        background-color: transparent;
+        border: none;
+        padding: 8px;
+        font-size: 10px;
+        @include gradient;
+    }
+
+    &__logo {
+        display: block;
+        height: 25px;
+        padding-left: 8px;
+        padding-right: 8px;
+        &__line {
+            position: relative;
+            border-left: 1px solid #ffffff;
+            height: 16px;
+            margin-top: 5px;
+        }
+    }
+}
+.button-left {
+}
+.button-right {
+}

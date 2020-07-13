@@ -1,0 +1,283 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("/fonts/");
+  src: local("Roboto Light"), local("Roboto-Light"), url("/fonts/?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Light.woff") format("woff"), url("/fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("/fonts/");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("/fonts/?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Bold.woff") format("woff"), url("/fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  font-family: 'Roboto Bold', sans-serif;
+}
+
+.navbar-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 70px;
+  background: transparent;
+}
+
+.nav-buttons__button {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 11px;
+  font-size: 10px;
+}
+
+.nav-buttons__button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#a053ff), to(#ff398f));
+  background: linear-gradient(to right, #a053ff, #ff398f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 15px linear-gradient(to right, #a053ff, #ff398f);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.nav-buttons__line {
+  position: absolute;
+  border-left: 1px solid #ffffff;
+  height: 16px;
+  margin-top: 10px;
+}
+
+.button1 {
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+}
+
+.button1:hover {
+  border: 1px solid #5a5a5a;
+  border-right: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.line1 {
+  margin-left: -5px;
+}
+
+.button2 {
+  margin-left: -5px;
+  margin-right: -5px;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.button2:hover {
+  border-bottom: 1px solid #5a5a5a;
+  border-top: 1px solid #5a5a5a;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.button3 {
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+}
+
+.button3:hover {
+  border: 1px solid #5a5a5a;
+  border-left: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.logo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo-block__button {
+  display: block;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  font-size: 10px;
+}
+
+.logo-block__button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#a053ff), to(#ff398f));
+  background: linear-gradient(to right, #a053ff, #ff398f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 15px linear-gradient(to right, #a053ff, #ff398f);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.logo-block__logo {
+  display: block;
+  height: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.logo-block__logo__line {
+  position: relative;
+  border-left: 1px solid #ffffff;
+  height: 16px;
+  margin-top: 5px;
+}
+
+.socialmedia-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socialmedia-block__link a {
+  text-decoration: none;
+  color: #d8e2dc;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #d8e2dc;
+  float: left;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.youtube a:hover {
+  color: #c4302b;
+  text-shadow: 0 0 15px #3b5998;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5a5a5a;
+}
+
+.instagram a:hover {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5a5a5a;
+}
+
+.facebook a:hover {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5a5a5a;
+}
+
+.telegram a:hover {
+  color: #249bd7;
+  text-shadow: 0 0 15px #3b5998;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5a5a5a;
+}
+
+body {
+  background: black;
+}
+
+.hero {
+  background: url(/img/background.png) black no-repeat center;
+  background-size: contain;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: 'Roboto Light', sans-serif;
+}
+
+.title {
+  margin: 0 auto;
+  width: 390px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  padding-top: 400px;
+}
+
+.subtitle {
+  margin: 0 auto;
+  width: 390px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */

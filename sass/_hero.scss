@@ -1,0 +1,27 @@
+.hero{
+    background: url(/img/background.png) black no-repeat center;
+    background-size: contain;
+    min-height: 100vh;
+    color: #ffffff;
+    @include light;
+}
+.title {
+    margin: 0 auto;
+    width: 390px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding-top: 400px;
+}
+.subtitle {
+    margin: 0 auto;
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
