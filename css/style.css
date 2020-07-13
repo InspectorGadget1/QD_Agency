@@ -50,6 +50,70 @@
   }
 }
 
+body {
+  background: black;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.socialmedia-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socialmedia-block__link a {
+  text-decoration: none;
+  color: #d8e2dc;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #d8e2dc;
+  float: left;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.youtube a:hover {
+  color: #c4302b;
+  text-shadow: 0 0 15px #3b5998;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5a5a5a;
+}
+
+.instagram a:hover {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5a5a5a;
+}
+
+.facebook a:hover {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5a5a5a;
+}
+
+.telegram a:hover {
+  color: #249bd7;
+  text-shadow: 0 0 15px #3b5998;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #5a5a5a;
+}
+
 .navbar {
   position: fixed;
   left: 0;
@@ -179,64 +243,6 @@
   border-left: 1px solid #ffffff;
   height: 16px;
   margin-top: 5px;
-}
-
-.socialmedia-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.socialmedia-block__link a {
-  text-decoration: none;
-  color: #d8e2dc;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  margin: 0 10px;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 50%;
-  border: 1px solid #d8e2dc;
-  float: left;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.youtube a:hover {
-  color: #c4302b;
-  text-shadow: 0 0 15px #3b5998;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  border: 1px solid #5a5a5a;
-}
-
-.instagram a:hover {
-  color: #bc2a8d;
-  text-shadow: 0 0 15px #bc2a8d;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  border: 1px solid #5a5a5a;
-}
-
-.facebook a:hover {
-  color: #3b5998;
-  text-shadow: 0 0 15px #3b5998;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  border: 1px solid #5a5a5a;
-}
-
-.telegram a:hover {
-  color: #249bd7;
-  text-shadow: 0 0 15px #3b5998;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  border: 1px solid #5a5a5a;
-}
-
-body {
-  background: black;
 }
 
 .hero {
