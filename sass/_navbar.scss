@@ -6,13 +6,14 @@
     @include bold;
 }
 .navbar-block {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    justify-content: space-between;
     min-height: 70px;
     background: transparent;
 }
 .nav-buttons {
+    justify-self: start;
     &__button {
         color: #ffffff;
         background-color: transparent;
@@ -63,6 +64,7 @@
     }
 }
 .logo-block {
+  justify-self: center;
     display: flex;
     &__button {
         display: block;

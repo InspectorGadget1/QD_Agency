@@ -12,7 +12,7 @@
 <body>
 
     <header class="header">
-        <div class="navbar">
+        <div id="navbar" class="navbar lock-padding">
             <div class="container">
                 <div class="navbar-block">
                     <div class="nav-buttons">
@@ -23,7 +23,7 @@
                         <button class="nav-buttons__button button3">КЕЙСИ</button>
                     </div>
                     <div class="logo-block">
-                        <button class="logo-block__button button-left">ПЕРЕГЛЯНУТИ ВІДЕО</button>
+                        <button id="video" class="logo-block__button button-left">ПЕРЕГЛЯНУТИ ВІДЕО</button>
                         <span class="logo-block__logo__line"></span>
                         <a href="#"><img src="img/logo.png" alt="" class="logo-block__logo"></a>
                         <span class="logo-block__logo__line"></span>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="socialmedia-block">
                         <div class="socialmedia-block__link telegram">
-                            <a href="#" target="_blank"><i class="fa fa-paper-plane fa"></i></a>
+                            <a href="https://miro.com/app/board/o9J_kpI-EZk=/?moveToWidget=3074457348846994127&cot=6" target="_blank"><i class="fa fa-paper-plane fa"></i></a>
                         </div>
                         <div class="socialmedia-block__link instagram">
                             <a href="https://www.instagram.com/qd.agency/" target="_blank"><i
@@ -42,7 +42,10 @@
                                     class="fa fa-facebook fa"></i></a>
                         </div>
                         <div class="socialmedia-block__link youtube">
-                            <a href="#" target="_blank"><i class="fa fa-youtube-play fa"></i></a>
+                            <a href="https://miro.com/app/board/o9J_kpI-EZk=/?moveToWidget=3074457348847147099&cot=6" target="_blank"><i class="fa fa-youtube-play fa"></i></a>
+                        </div>
+                        <div class="socialmedia-block__link behance">
+                            <a href="https://miro.com/app/board/o9J_kpI-EZk=/?moveToWidget=3074457348847147099&cot=6" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></i></a>
                         </div>
                     </div>
                 </div>
@@ -60,7 +63,15 @@
         <!-- /.hero -->
     </header>
     <!-- /.header -->
-
+    <div id="popup_video" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+               <iframe src="https://player.vimeo.com/video/297912323" class="video-payer" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            <span class="close .close-popup"></span>
+        </div>
+    </div>
+    <script src="js/popup.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,5 @@
 .socialmedia-block{
+    justify-self: end;
     display: flex;
     &__link a {
         text-decoration: none;
@@ -42,6 +43,14 @@
 .telegram a{
     &:hover {
         color: #249bd7;
+        text-shadow: 0 0 15px #3b5998;
+        transition: all 0.5s ease;
+        border: 1px solid rgb(90, 90, 90);
+    }
+}
+.behance a{
+    &:hover {
+        color: #0057ff;
         text-shadow: 0 0 15px #3b5998;
         transition: all 0.5s ease;
         border: 1px solid rgb(90, 90, 90);

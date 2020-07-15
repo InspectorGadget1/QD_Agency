@@ -1,5 +1,8 @@
 body{
     background: black;
+    &.lock{
+        overflow: hidden;
+    }
 }
 button, 
 button:active, 

@@ -1,14 +1,28 @@
 *
     box-sizing: border-box
+.header
+    &.blure
+        -webkit-filter: blur(2px)
+        -moz-filter: blur(2px)
+        -o-filter: blur(2px)
+        -ms-filter: blur(2px)
+        filter: blur(2px)
+        transition: all 0.8s ease
 .container
     max-width: 1170px
-    margin: auto    
+    margin: auto 
+    .video-payer
+        width: 960px 
+        height: 540px 
 @media screen and (min-width: 1920px)
     .container
         max-width: 1400px
 @media screen and (max-width: 1199px)
     .container
         max-width: 960px
+    .video-payer
+        width: 640px 
+        height: 360px
 @media screen and (max-width: 991px)
     .container
         max-width: 750px

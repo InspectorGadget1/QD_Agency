@@ -4,7 +4,7 @@
     min-height: 100vh;
     color: #ffffff;
     @include light;
-    padding-top: 80vh;
+    padding-top: 70vh;
 }
 .title {
     margin: 0 auto;
@@ -13,16 +13,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 40px;
 
 }
 .subtitle {
     margin: 0 auto;
-    width: 390px;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
     padding-top: 20px;
 }
+
